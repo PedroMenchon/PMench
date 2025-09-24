@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMench - Sites e Landing Pages Profissionais</title>
+    <meta name="description" content="A PMench desenvolve sites e landing pages profissionais para o seu negócio. Transformamos ideias em sites modernos e que vendem.">
+    <meta name="keywords" content="sites, landing pages, desenvolvimento web, design moderno, PMench">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <nav>
+            <a href="#" class="logo">pmench</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#portfolio">Modelos</a></li>
+                <li><a href="#about">Quem Somos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <h1>Transformamos ideias em sites modernos e que vendem</h1>
+                <p>A PMench desenvolve sites e landing pages profissionais para o seu negócio.</p>
+                <a href="#contact" class="cta-button">Fale Conosco</a>
+            </div>
+            <div class="hero-mockup" data-aos="fade-left">
+                <div class="mockup-container">
+                    <div class="mockup-laptop">
+                        <div class="mockup-screen">
+                            <i class="fas fa-code"></i>
+                            <span style="margin-left: 10px;">Sites Profissionais</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Sites Responsivos</h3>
+                    <p>Desenvolvimento de sites modernos e totalmente responsivos, adaptados para todos os dispositivos.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Landing Pages</h3>
+                    <p>Páginas de alta conversão focadas em resultados e vendas para o seu negócio.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Personalização de Layouts</h3>
+                    <p>Designs únicos e personalizados que refletem a identidade da sua marca.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3>SEO e Performance</h3>
+                    <p>Otimização para motores de busca e performance superior em velocidade de carregamento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Nossos Modelos</h2>
+            <div class="carousel-container" data-aos="fade-up" data-aos-delay="200">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div style="text-align: center;">
+                                <i class="fas fa-dumbbell" style="font-size: 3rem; color: var(--purple); margin-bottom: 1rem;"></i>
+                                <h3>Site para Academia</h3>
+                                <p>Layout moderno com foco em fitness</p>
+                            </div>
+                        </div>
+                        <a href="#contact" class="portfolio-button">Gostou deste modelo? Fale comigo!</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div style="text-align: center;">
+                                <i class="fas fa-user-md" style="font-size: 3rem; color: var(--purple); margin-bottom: 1rem;"></i>
+                                <h3>Portfólio Médico</h3>
+                                <p>Design profissional para médicos</p>
+                            </div>
+                        </div>
+                        <a href="#contact" class="portfolio-button">Gostou deste modelo? Fale comigo!</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div style="text-align: center;">
+                                <i class="fas fa-clinic-medical" style="font-size: 3rem; color: var(--purple); margin-bottom: 1rem;"></i>
+                                <h3>Site para Clínicas</h3>
+                                <p>Layout clean e institucional</p>
+                            </div>
+                        </div>
+                        <a href="#contact" class="portfolio-button">Gostou deste modelo? Fale comigo!</a>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div style="text-align: center;">
+                                <i class="fas fa-utensils" style="font-size: 3rem; color: var(--purple); margin-bottom: 1rem;"></i>
+                                <h3>Site para Restaurantes</h3>
+                                <p>Design atrativo com cardápio online</p>
+                            </div>
+                        </div>
+                        <a href="#contact" class="portfolio-button">Gostou deste modelo? Fale comigo!</a>
+                    </div>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="carousel-btn" id="nextBtn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="carousel-indicators" id="indicators"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>Quem Somos</h2>
+                    <p>A PMench é uma empresa especializada em desenvolvimento de sites e landing pages profissionais. Nosso foco está em criar soluções digitais modernas, com alta performance e que geram resultados reais para nossos clientes.</p>
+                    
+                    <p>Trabalhamos com design inovador, tecnologias atuais e estratégias de conversão comprovadas para garantir que seu site não seja apenas bonito, mas também eficaz em atingir seus objetivos de negócio.</p>
+
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/pmench_/" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="about-visual" data-aos="fade-left">
+                    <div class="about-graphic">
+                        <i class="fas fa-code"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title" data-aos="fade-up">Entre em Contato</h2>
+                <p data-aos="fade-up" data-aos-delay="100">Pronto para transformar sua presença digital? Entre em contato conosco e vamos criar algo incrível juntos!</p>
+                
+                <div class="contact-info" data-aos="fade-up" data-aos-delay="200">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span>pmench2025@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-whatsapp contact-icon"></i>
+                        <span>42 99846-4088</span>
+                    </div>
+                </div>
+                
+                <a href="mailto:pmench2025@gmail.com" class="cta-button" style="margin-top: 2rem;" data-aos="fade-up" data-aos-delay="300">
+                    Enviar Email
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#portfolio">Modelos</a></li>
+                        <li><a href="#about">Quem Somos</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Serviços</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Sites Responsivos</a></li>
+                        <li><a href="#services">Landing Pages</a></li>
+                        <li><a href="#services">Personalização</a></li>
+                        <li><a href="#services">SEO e Performance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <ul class="footer-links">
+                        <li><a href="mailto:pmench2025@gmail.com">pmench2025@gmail.com</a></li>
+                        <li><a href="https://www.instagram.com/pmench_/" target="_blank">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 PMench. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Elements -->
+    <a href="#" class="whatsapp-btn" id="whatsappBtn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <button class="scroll-to-top" id="scrollToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+    
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+            offset: 100
+        });
+
+        // Loader
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('fade-out');
+            }, 1000);
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect (removed - handled by optimized version below)
+
+        // Scroll to top functionality
+        document.getElementById('scrollToTop').addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Carousel functionality
+        const carouselTrack = document.getElementById('carouselTrack');
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+        const indicatorsContainer = document.getElementById('indicators');
+        
+        let currentIndex = 0;
+        const totalItems = 4;
+
+        // Create indicators
+        for (let i = 0; i < totalItems; i++) {
+            const indicator = document.createElement('div');
+            indicator.classList.add('indicator');
+            if (i === 0) indicator.classList.add('active');
+            indicator.addEventListener('click', () => goToSlide(i));
+            indicatorsContainer.appendChild(indicator);
+        }
+
+        const indicators = document.querySelectorAll('.indicator');
+
+        function updateCarousel() {
+            const translateX = -currentIndex * 100;
+            carouselTrack.style.transform = `translateX(${translateX}%)`;
+            
+            indicators.forEach((indicator, index) => {
+                indicator.classList.toggle('active', index === currentIndex);
+            });
+        }
+
+        function goToSlide(index) {
+            currentIndex = index;
+            updateCarousel();
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % totalItems;
+            updateCarousel();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + totalItems) % totalItems;
+            updateCarousel();
+        }
+
+        nextBtn.addEventListener('click', nextSlide);
+        prevBtn.addEventListener('click', prevSlide);
+
+        // Auto-play carousel
+        setInterval(nextSlide, 5000);
+
+        // Mobile menu functionality
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+
+        if (mobileMenu && navLinks) {
+            mobileMenu.addEventListener('click', function() {
+                navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+                this.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking on a link
+            navLinks.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navLinks.style.display = 'none';
+                    mobileMenu.classList.remove('active');
+                });
+            });
+        }
+
+        // WhatsApp button functionality
+        document.getElementById('whatsappBtn').addEventListener('click', function(e) {
+            e.preventDefault();
+            // Placeholder for WhatsApp functionality
+            alert('Função WhatsApp será configurada em breve!');
+        });
+
+        // Lazy loading for images
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px 50px 0px'
+        };
+
+        const imageObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                        img.classList.add('loaded');
+                        imageObserver.unobserve(img);
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Observe all images with data-src
+        document.querySelectorAll('img[data-src]').forEach(img => {
+            imageObserver.observe(img);
+        });
+
+        // Performance optimization: Debounced scroll handler
+        let ticking = false;
+
+        function updateScrollElements() {
+            const header = document.querySelector('header');
+            const scrollToTop = document.getElementById('scrollToTop');
+            
+            if (window.scrollY > 100) {
+                header.style.background = 'rgba(10, 10, 10, 0.98)';
+                scrollToTop.classList.add('visible');
+            } else {
+                header.style.background = 'rgba(10, 10, 10, 0.95)';
+                scrollToTop.classList.remove('visible');
+            }
+            
+            ticking = false;
+        }
+
+        function requestScrollUpdate() {
+            if (!ticking) {
+                requestAnimationFrame(updateScrollElements);
+                ticking = true;
+            }
+        }
+
+        window.addEventListener('scroll', requestScrollUpdate);
+
+        // Form validation and enhancement
+        // No form in current design, but ready for future implementation
+
+        // Analytics and tracking (placeholder)
+        function trackEvent(eventName, properties) {
+            // Placeholder for analytics tracking
+            if (typeof console !== 'undefined') {
+                console.log(`Event: ${eventName}`, properties);
+            }
+        }
+
+        // Track button clicks
+        document.querySelectorAll('.cta-button, .portfolio-button').forEach(button => {
+            button.addEventListener('click', function() {
+                trackEvent('button_click', {
+                    button_text: this.textContent,
+                    button_location: this.closest('section')?.id || 'unknown'
+                });
+            });
+        });
+
+        // Progressive Web App features
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function() {
+                // Service worker registration would go here
+                if (typeof console !== 'undefined') {
+                    console.log('PWA features available');
+                }
+            });
+        }
+
+        // Accessibility improvements
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Tab') {
+                document.body.classList.add('keyboard-navigation');
+            }
+        });
+
+        document.addEventListener('mousedown', function() {
+            document.body.classList.remove('keyboard-navigation');
+        });
+
+        // Dark mode toggle (optional enhancement)
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+        
+        function updateTheme(e) {
+            // Theme switching logic would go here
+            if (typeof console !== 'undefined' && e) {
+                console.log('System theme changed:', e.matches ? 'dark' : 'light');
+            }
+        }
+
+        if (prefersDark) {
+            if (prefersDark.addEventListener) {
+                prefersDark.addEventListener('change', updateTheme);
+            } else {
+                prefersDark.addListener(updateTheme);
+            }
+            updateTheme(prefersDark);
+        }
+
+        // Error handling for failed resources
+        window.addEventListener('error', function(e) {
+            if (e.target.tagName === 'IMG') {
+                e.target.style.display = 'none';
+                console.log('Image failed to load:', e.target.src);
+            }
+        });
+
+        // Performance monitoring
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                const perfData = performance.getEntriesByType('navigation')[0];
+                if (perfData) {
+                    console.log('Page load time:', perfData.loadEventEnd - perfData.loadEventStart, 'ms');
+                }
+            }, 0);
+        });
+
+        // Intersection Observer for animations
+        const animationObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        // Observe elements for custom animations
+        document.querySelectorAll('.service-card, .portfolio-item').forEach(el => {
+            animationObserver.observe(el);
+        });
+    </script>
+
+    <!-- Schema.org structured data for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "PMench",
+        "description": "Empresa especializada em desenvolvimento de sites e landing pages profissionais",
+        "url": "https://pmench.com",
+        "logo": "https://pmench.com/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "email": "pmench2025@gmail.com",
+            "contactType": "customer service"
+        },
+        "sameAs": [
+            "https://www.instagram.com/pmench_/"
+        ],
+        "service": [
+            {
+                "@type": "Service",
+                "name": "Desenvolvimento de Sites Responsivos",
+                "description": "Sites modernos e totalmente responsivos"
+            },
+            {
+                "@type": "Service", 
+                "name": "Criação de Landing Pages",
+                "description": "Páginas de alta conversão focadas em resultados"
+            },
+            {
+                "@type": "Service",
+                "name": "Personalização de Layouts",
+                "description": "Designs únicos e personalizados"
+            },
+            {
+                "@type": "Service",
+                "name": "SEO e Performance",
+                "description": "Otimização para motores de busca e performance"
+            }
+        ]
+    }
+    </script>
+</body>
+</html>
